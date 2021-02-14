@@ -140,27 +140,45 @@
 // console.log(p);
 
 
-let h1 =document.querySelectorAll('.para')
-console.log(h1);
+// let h1 =document.querySelectorAll('.para')
+// console.log(h1);
 
-let h1 =document.querySelector('#head')
-console.log(h1);
+// let h1 =document.querySelector('#head')
+// console.log(h1);
 
 
 // h1.style.color="red"
 // h1.style.backgroundColor='blue'
 
-let p =document.querySelector('.para')
+// let p =document.querySelector('.para')
 
 // p.style.color='#eeeeee'
 
-h1.addEventListener('mouseover',function (){
-    console.log('clicked');
-    h1.style.color="green"
-})
+// h1.addEventListener('mouseover',function (){
+//     console.log('clicked');
+//     h1.style.color="green"
+// })
 
-p.addEventListener('click',function(){
-    console.log(p.classList);
-    p.classList.toggle("newClaass")
-})
+// p.addEventListener('click',function(){
+//     console.log(p.classList);
+//     p.classList.toggle("newClaass")
+// })
 
+let shop = {
+    sunday:{
+firstPerson:{
+        things:['potato','tomato','apple','orange','dogfood','dairymilk'],
+        rate:[10,14,60,40,100,20]
+},
+secondPerson:{
+    things:['potato','tomato','apple','orange','dogfood','dairymilk'],
+    rate:[10,14,60,40,100,20]
+}
+    }
+}
+
+console.log
+   (shop.sunday.firstPerson.things[1],
+    shop.sunday.firstPerson.rate[1],
+    shop.sunday.secondPerson.things[4],
+    shop.sunday.secondPerson.rate[4]);
